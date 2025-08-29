@@ -1,4 +1,4 @@
-# 🔍 Log Analyzer - Unusual Activity Detection
+#  Log Analyzer - Unusual Activity Detection
 
 [![Python](https://img.shields.io/badge/Python-3.7+-blue.svg)](https://www.python.org/downloads/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
@@ -6,18 +6,18 @@
 
 > **A beginner-friendly Python application that analyzes log files to detect unusual activities and potential security threats in real-time.**
 
-## 🎯 What is this project?
+##  What is this project?
 
 This Log Analyzer is a cybersecurity tool designed to help you identify suspicious activities in your system logs. Think of it as a digital security guard that monitors login attempts and flags anything that looks unusual or potentially dangerous.
 
-### 🚨 What does it detect?
+###  What does it detect?
 
-- **🔴 Failed Login Attacks**: Multiple wrong password attempts (brute force attacks)
-- **🌍 Geographic Anomalies**: Users logging in from unexpected locations
-- **⏰ Time-based Anomalies**: Logins at unusual hours (like 3 AM)
-- **🔄 Frequency Anomalies**: Unusual login patterns (too many logins too quickly)
+- ** Failed Login Attacks**: Multiple wrong password attempts (brute force attacks)
+- ** Geographic Anomalies**: Users logging in from unexpected locations
+- ** Time-based Anomalies**: Logins at unusual hours (like 3 AM)
+- ** Frequency Anomalies**: Unusual login patterns (too many logins too quickly)
 
-## 🎓 Perfect for Learning
+##  Perfect for Learning
 
 This project is specifically designed for **beginners** who want to learn:
 - **Python programming** fundamentals
@@ -27,7 +27,7 @@ This project is specifically designed for **beginners** who want to learn:
 - **Regular expressions** for text processing
 - **Command-line tools** development
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 - **Python 3.7 or higher** ([Download here](https://www.python.org/downloads/))
@@ -75,22 +75,22 @@ It extracts key details from each line:
 ### 3. **Detecting Patterns**
 The analyzer looks for suspicious patterns:
 
-#### 🔴 **Failed Login Detection**
+####  **Failed Login Detection**
 - **What it looks for**: Multiple failed attempts by the same user
 - **Example**: User tries wrong password 5 times in 1 hour
 - **Why it's suspicious**: Could be a hacker trying to guess passwords
 
-#### 🌍 **Geographic Anomalies**
+####  **Geographic Anomalies**
 - **What it looks for**: Users logging in from unexpected locations
 - **Example**: User normally logs in from New York, suddenly logs in from Tokyo
 - **Why it's suspicious**: Could be account theft or unauthorized access
 
-#### ⏰ **Time-based Anomalies**
+####  **Time-based Anomalies**
 - **What it looks for**: Logins at unusual hours
 - **Example**: User logs in at 3 AM when they normally work 9-5
 - **Why it's suspicious**: Could be unauthorized access or account compromise
 
-#### 🔄 **Frequency Anomalies**
+####  **Frequency Anomalies**
 - **What it looks for**: Unusual login patterns
 - **Example**: User logs in 3 times within 5 minutes
 - **Why it's suspicious**: Could be automated attacks or account sharing
